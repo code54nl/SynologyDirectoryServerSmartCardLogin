@@ -1,7 +1,7 @@
 # SynologyDirectoryServerSmartCardLogin
-Synology Directory Server with Smartcard (PIV) Login for Windows Clients.
+Synology Directory Server with Smart card (PIV) Login for Windows Clients.
 
-I would like to document a Howto for Smartcard-login for Windows 10 clients that join of a Synology Directory Server (Windows Active Directory). For the Smartcard I'm using a UbiKey. Anyone who wants to help?
+I would like to document a Howto for Smartcard-login for Windows 10 clients that join a __Synology Directory Server__ (Windows Active Directory). For the Smartcard I'm using a UbiKey. Anyone who wants to help?
 
 ![Require Smartcard login](https://user-images.githubusercontent.com/8829775/114299531-16ae8f80-9abc-11eb-885e-57e1b15f4a55.png)
 
