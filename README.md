@@ -3,6 +3,9 @@ Synology Directory Server with Smartcard (PIV) Login for Windows Clients.
 
 I would like to document a Howto for Smartcard-login for Windows 10 clients that join of a Synology Directory Server (Windows Active Directory). For the Smartcard I'm using a UbiKey. Anyone who wants to help?
 
+![Require Smartcard login](https://user-images.githubusercontent.com/8829775/114299531-16ae8f80-9abc-11eb-885e-57e1b15f4a55.png)
+
+
 ## Howto for Samba
 I've read: https://wiki.samba.org/index.php/Samba_AD_Smart_Card_Login#Allowing_Smart_Card_Login_to_a_Samba4_Domain
 
@@ -165,3 +168,5 @@ From here, the questions are:
 3. What needs to be configured? Like: [1.6.8 Edit the Samba KDC Configuration File to Enable PKINIT Authentication](https://wiki.samba.org/index.php/Samba_AD_Smart_Card_Login#Edit_the_Samba_KDC_Configuration_File_to_Enable_PKINIT_Authentication)
 4. How to setup a CRL Distribution Point, like in step [1.5 Set up the CRL Distribution Point](https://wiki.samba.org/index.php/Samba_AD_Smart_Card_Login#Set_up_the_CRL_Distribution_Point)
 5. How to create certificates for each user, like step [1.4.6 Generate Certificates for Each User](https://wiki.samba.org/index.php/Samba_AD_Smart_Card_Login#Generate_Certificates_for_Each_User)
+
+I couldn't find any documentation from Synology on this.
